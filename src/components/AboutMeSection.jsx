@@ -42,7 +42,7 @@ export const AboutMeSection = () => {
 
               <a 
                 download
-                href="/cv_baris_jomarie.pdf"
+                href={`${import.meta.env.BASE_URL}cv_baris_jomarie.pdf`}
                 className={cn(
                   "px-6 py-2 rounded-full border border-primary text-primary",
                   "hover:bg-primary/70 transition-colors duration-300"
