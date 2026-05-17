@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: 'SDG Classification and Research Analysis Dashboard',
     description: 'A dashboard page app using React and Tailwind.',
-    image: '/projects/thesis_project.png',
+    image: `${import.meta.env.BASE_URL}projects/thesis_project.png`,
     tags: ['React', 'NLP', 'AI Integrated'],
     githubUrl: 'https://github.com/BarisJomarie/Project-C',
     demoUrl: 'https://drive.google.com/file/d/1HV5ZLpdEZZU7j05dntfVad4G2at_aK4Y/view?usp=sharing',
